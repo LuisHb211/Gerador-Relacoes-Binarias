@@ -98,4 +98,6 @@ fim = time.time()
 tempoTotal = fim - inicio
 
 print('O tempo para execucao foi de {:.3f}s'.format(tempoTotal))
-parar = input("Aparte qualquer tecla para sair")
+
+with open('resultados.txt', 'a') as arquivo:
+    arquivo.write("O tempo para a conclusão do programa foi de: {:.3f} segundos".format(tempoTotal))

@@ -14,3 +14,4 @@
 [(1, 1), (2, 1), (2, 2)] TRFs
 [(1, 2), (2, 1), (2, 2)] SFs
 [(1, 1), (1, 2), (2, 1), (2, 2)] STREFs
+O tempo para a conclusão do programa foi de: 0.001 segundos
